@@ -15,3 +15,10 @@ footer: 2023-02-10
 <!--h 높이조절 -->
 
 Installs 누르기
+
+
+---
+
+![h:400](./image/ing.png) 
+installs Editor 누르기
+
