@@ -58,5 +58,9 @@ Locate를 눌러
  ---
   ![h:400](./image/image9.png)
   유니티를 눌러  select Editor 를 클릭
+
   ---
-   
+  ![h:400](./image/image10.png)
+  그럼 설치가 완료 된 것을 확인할 수 있음
+
+  
