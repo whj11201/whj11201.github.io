@@ -4,7 +4,7 @@ theme: uncover
 class: invert
 paginate: true
 header: Marp tutorial
-footer: 2023-02-10
+footer: 2023-02-14
 ---
 
 # Unity 버전 설치
@@ -18,9 +18,9 @@ Installs 누르기
 
 
 ---
-# Unity 버전 설치
+
 ![h:400](./image/ing.png) 
 installs Editor 누르기
 
 ---
-# Unity 버전 설치
+![h:400](./image/image2.png)
