@@ -38,5 +38,25 @@ Archive를 눌러 Long-Term Support 눌러준다
 
 
  ---
+![h:400](./image/image5.png)
+다운로드 폴더에 들어가 실행시킨다.
 
  ---
+
+![h:400](./image/image6.png)
+설치중간에 자기 파일 위치는 어디있는지 알아야할 것
+
+ ---
+ 
+ ![h:400](./image/image7.png)
+Locate를 눌러
+
+ ---
+ ![h:400](./image/image8.png)
+ 파일을 찾은 후 
+
+ ---
+  ![h:400](./image/image9.png)
+  유니티를 눌러  select Editor 를 클릭
+  ---
+   
