@@ -72,13 +72,13 @@ $$
 
 
  ---
- ### 이미지 좌측 설정 및 추가목록
+ ### 이미지 좌측 설정
 
  ```thml
 ![bg left height:4in](./폴더이름/이미지.png)
 
- *1
- *2
+ * 1
+ * 2
 
 
  ```
@@ -191,7 +191,7 @@ style: |
 ```
  ---
  
-## PDF로 생성
+### PDF로 생성
 
 ![h:400](./marpimg/image3.png)
 export slide deck 클릭
