@@ -15,6 +15,7 @@ footer: 2023-02-14
 https://www.oculus.com/download_app/?id=1582076955407037
 
 ---
+![h:400](./Oculusplay/imging2.png) 
 다운로드를 마치고 로그인을 진행한다 (feacbook, instargram)
 
 ---
