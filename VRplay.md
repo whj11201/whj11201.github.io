@@ -6,22 +6,21 @@ paginate: true
 header: Marp tutorial
 footer: 2023-02-14
 ---
-# 오큐러스 데스크탑 연결하기
+# 오큐러스링크, 메타링크 연결
 
 ---
 
-
-
-
-
-
-
+![h:400](./Oculusplay/imging.png) 
 오큐러스를 사용하기 위해 오큐러스 웹을 다운로드한다.
 https://www.oculus.com/download_app/?id=1582076955407037
 
 ---
+다운로드를 마치고 로그인을 진행한다 (feacbook, instargram)
 
 ---
+
+---
+
 *PC와 연결:
 홈- 환경 설정- 맨 우측의 ‘PC연결’ 선택 ‘Rife’- 위젯이 뜨고 유니티 선택- 유니티 화면 나타남.  
 
