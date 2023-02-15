@@ -57,6 +57,7 @@ pc에서 뜨는 연결된 PC이름 클릭 후-실행
 
 ---
 # Quest link 나가는법
+
 ![h:400](./Oculusplay/imging3.png)
 연결된 오큐러스 UI 맨 좌측에 vr기기 아이콘을 눌러 
 나가면된다.
