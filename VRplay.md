@@ -6,7 +6,7 @@ paginate: true
 header: Marp tutorial
 footer: 2023-02-14
 ---
-# 오큐러스링크 연결
+# 오큐러스와 PC(Unity)연결
 
 ---
 
