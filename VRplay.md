@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: uncover
+theme: 4cover
 class: invert
 paginate: true
 header: Marp tutorial
@@ -8,8 +8,17 @@ footer: 2023-02-14
 ---
 # 오큐러스와 PC(Unity)연결
 
+
+
 ---
 
+
+# 목차
+
+1. pc와 연결
+
+
+---
 ![h:400](./Oculusplay/imging.png) 
 오큐러스를 사용하기 위해 오큐러스 웹을 다운로드한다.
 https://www.oculus.com/download_app/?id=1582076955407037
@@ -21,7 +30,7 @@ https://www.oculus.com/download_app/?id=1582076955407037
 
 
 ---
-# PC와 연결(PC)
+# PC와 연결
 ![h:400](./Oculusplay/imging4.png)
 오큘러스 앱에서 기기- 헤드셋추가 - Quest 2선택- 계속 
 
