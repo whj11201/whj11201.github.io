@@ -72,7 +72,7 @@ $$
 
 
  ---
- ### 이미지 좌측 설정 및 추가목록(부가설명)
+ ### 이미지 좌측 설정 및 추가목록
 
  ```thml
 ![bg left height:4in](./폴더이름/이미지.png)
@@ -86,8 +86,8 @@ $$
  ###### 이미지 좌측 설정 및 추가목록
  ![bg left height:4in](./marpimg/image.png)
 
- *1
- *2
+ * 1
+ * 2
 
 ---
 ## Color 추가
@@ -101,8 +101,11 @@ $$
 ---
 ### 예시
  <!--_color: SKYBLUE-->
- <!--_backgroundColor: purple-->
-
+ <!--_backgroundColor: green-->
+ ```css
+ <!--_color: SKYBLUE-->
+ <!--_backgroundColor: green-->
+ ```
 
  ---
 
@@ -162,17 +165,40 @@ style: |
 
 
  ---
+ # 적용 실패 사례
 
-### 적용이 잘 안된 사유
-"https://github.com/whj11201/whj11201.github.io/blob/main/test.md"
+---
 
+
+적용안됨
+```css
+style: |
+ .columns {
+    display: grid;
+    grid-template-colums: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+ }
+```
+적용됨
+```css
+ style: |
+    .columns {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+    }
+  
+```
  ---
  
 ## PDF로 생성
 
-show Quick pick of Marp Commands
-(겹 쳐있는 직각삼각형모양) 
-
-클릭후 Export Slide DECK 클릭 후 
+![h:400](./marpimg/image3.png)
+export slide deck 클릭
 자기가 원하는 파일 위로 export를 눌러 생성
+
+---
+
+[참고:Youtube](https://www.youtube.com/@dougmercer)
+Thanks you
   
