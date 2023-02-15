@@ -44,6 +44,7 @@ https://www.oculus.com/download_app/?id=1582076955407037
 # PC화면으로 연결(오큐러스)
 홈- 환경 설정- 시스템 - Quest Link - Quest Link 실행-  
 pc에서 뜨는 연결된 PC이름 클릭 후-실행
+
 웹을 실행시킬라면 UI오른쪽에 +를 눌러 원하는 앱을
 누르면 실행이 된다.
 
