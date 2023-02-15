@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: cover
+theme: uncover
 class: invert
 paginate: true
 header: Marp tutorial
