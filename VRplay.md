@@ -20,6 +20,7 @@ footer: 2023-02-14
 * Hand Tracking 활성화 (자동,수동)
 * Oclus로 스크린샷 찍기
 * pc화면으로 Oclus화면 스크린샷
+* 공장초기화법
 
 
 
