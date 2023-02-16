@@ -255,4 +255,85 @@ Oculus integration 클릭 → Download → Import
 
 ---
 
-![h:300](./project1/image23.png)
+![bg  w:300](./project1/image23.png)
+![bg  w:300](./project1/image24.png)
+![bg  w:300](./project1/image25.png)
+![bg  w:300](./project1/image26.png)
+
+---
+
+#### 알림창 - Yes > Cancel > Ok > Restart > Upgrade → 유니티 재시작 후 Import 완료
+
+ ---
+## 만약 알림창이 Upgrade가 아닌 경우
+![h:400](./project1/image27.png)
+* Show Assets (Recommended)  > Delete Assets (Recommended) - Upgrade로 변경 완료 
+ 
+ ---
+ # VR 카메라 추가
+ ![bg left height:4in](./project1/image28.png)
+ 1. Project Scenes(꼭 VR Basic씬 안에서 검색해야 함) 
+ 2. OVRCameraRig 검색 → Hierarchy창에 드래그 
+3. Headset으로 이름 변경
+
+---
+ ![bg left height:4in](./project1/image29.png)
+4. HeadSet 클릭 → OVR Manager (Script) → 
+5. Tracking Origin Type - Floor Level 설정 →
+6. Hand Tracking Support - Hands Only, Hand Tracking Frequency - MAX 로 설정
+
+---
+ 
+ # VR 핸드 추가
+![h:400](./project1/image30.png)
+1. Project -Scenes - OVRHandPrefab 검색 
+
+2. LeftHandAnchor, RightHandAnchor에 각각 OVRHandPrefab을 드래그하여 추가
+
+---
+![bg left height:4in](./project1/image31.png)
+  3. OVRHandPrefab 를 각각 LeftHand, RightHand로 이름 변경
+
+  
+  ---
+
+![bg left height:4in](./project1/image32.png)
+4. LeftHand 클릭 → OVR Skeleton 스크립트  > Update Root Scale 체크
+5.  Enable Physics Capsules 체크 
+6. OVR Mesh 스크립트 > Mesh Type - Hand Left 설정
+
+---
+
+![bg left height:4in](./project1/image33.png)
+7. RightHand 클릭 → OVR Skeleton 스크립트  > Update Root Scale 체크, Hand Right 설정
+8. Enable Physics Capsules 체크 
+9. OVR Mesh 스크립트 > Mesh Type - Hand Right 설정
+
+---
+
+# Oculus Quest2 사이드퀘스트 설치 및 활성화
+
+### 1. [오큘러스 개발자 계정 등록하기](https://developer.oculus.com/manage/organizations/create/)
+
+---
+
+![bg  w:500](./project1/image34.png)
+![bg  w:500](./project1/image35.png)
+![bg  w:400](./project1/image36.png)
+
+---
+* 단체 만들기 → 단체 이름 설정 →  I understand 체크하기 → 제출 클릭 → 동의함(개발자 비밀 유지 동의서) 클릭 → 제출
+ 
+* 페이스북 로그인 아이디가 번호(본인 휴대폰)계정이 아닐 때, Oculus페이지 내에 번호 추가하기
+
+---
+
+# 오큘러스 퀘스트2(Android) 개발자 모드 활성화
+
+![h:400](./project1/image37.png)
+Oculus 앱 → 메뉴 → 기기 → 개발자 모드 → 개발자 모드 ON
+
+---
+# 사이드퀘스트 설치
+![h:400](./project1/image37.png)
+[링크] (https://sidequestvr.com/download)
