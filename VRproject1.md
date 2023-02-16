@@ -336,4 +336,4 @@ Oculus 앱 → 메뉴 → 기기 → 개발자 모드 → 개발자 모드 ON
 ---
 # 사이드퀘스트 설치
 ![h:400](./project1/image37.png)
-[링크] (https://sidequestvr.com/download)
+[링크](https://sidequestvr.com/download)
