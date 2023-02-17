@@ -335,5 +335,41 @@ Oculus 앱 → 메뉴 → 기기 → 개발자 모드 → 개발자 모드 ON
 
 ---
 # 사이드퀘스트 설치
-![h:400](./project1/image37.png)
+![bg left height:4in](./project1/image38.png)
 [링크](https://sidequestvr.com/download)
+Advanced Installer ( LTS ) 버전으로 설치
+(Easy Installer(Beta)는 테스트용이기 때문에 쓰지 말 것)
+DOWNLOAD FOR WINDOWS 설치
+
+---
+# 오큘러스 퀘스트2 USB 디버깅 활성화
+![h:400](./project1/image39.png)
+ 
+* 퀘스트2 옆면에 있는 USB단자에 USB-C 케이블을 꽂아 PC와 연결 → VR에서 USB 디버깅 활성화 문구 동의(문구가 뜨지 않을 경우 재부팅)
+
+---
+
+![bg  w:500](./project1/image41.png)
+![bg  w:400](./project1/image42.png)
+
+---
+
+디버깅 활성화 시 사이드 퀘스트 상단 아이콘이 주황불에서 초록불로 변경 후 
+
+![h:400](./project1/image40.png)
+VR 내에서 해당 문구가 뜹니다. 
+ 
+USB 디버깅을 허용하시겠어요? (허용 클릭) / 데이터 액세스 허용합니다. 허용
+
+---
+
+![bg left height:4in](./project1/image43.png)
+![bg left height:4in](./project1/image44.png)
+
+1. 사이드 퀘스트에서 상단 메뉴 TV 모양 아이콘 클릭 
+2. 해당 창이 뜸 
+3. QUEST 2 CROP 클릭 
+4. START STREAM 클릭
+
+---
+
