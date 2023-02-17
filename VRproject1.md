@@ -1,10 +1,11 @@
 ---
 marp: true
-theme: 
+theme: cover
 class: invert
 paginate: true
 header: Marp tutorial
 footer: 2023-02-13
+backgroundColor: 
 ---
 <!--_color: pink-->
 # Unity VR Programming
@@ -372,4 +373,182 @@ USB 디버깅을 허용하시겠어요? (허용 클릭) / 데이터 액세스 �
 4. START STREAM 클릭
 
 ---
+# Unity VR 다양한 씬 체험설명
+
+Assets > Oculus > Interaction > Sameples > Scenes > Examples 로 들어가기
+
+
+---
+
+### 1) DistanceGrabExamples
+
+![bg left height:4in](./project1/image45.png)
+
+
+* 멀리 있는 물체를 집을 수 있고, 표시되는 UI가 사물마다 다름.
+
+---
+### 2) GestureExamples
+![bg left height:4in](./project1/image46.png)
+
+* 오브젝트와 핸드트래커에 강한 충격을 주면 색이 변함
+
+---
+
+### 3) HandGrabExamples
+
+![bg left height:4in](./project1/image47.png)
+* 오브젝트를 잡을 때 빛이 밝아짐 
+* 횃불의 불이 따라오는 효과
+* 손의 각도에 따라 컵을 다르게 집음
+
+---
+### 4) PokeExamples
+
+![bg left height:4in](./project1/image47.png)
+* 빨간 버튼을 누를 수 있는 기능(UX.UI 참고)
+* 버튼 오버 기능(오버했을 때 색이 밝게 변화)
+* 스크롤 기능
+* 다양한 위치의 버튼 UI
+
+---
+
+### 5) PoseExamples
+
+![bg left height:4in](./project1/image48.png)
+
+* 손 제스처에 따른 다양한 이펙트 효과
+
+---
+
+
+
+### 6)  RayExamples
+![bg left height:4in](./project1/image49.png)
+![bg left height:4in](./project1/image50.png)
+
+* 인터페이스 불투명 정도
+
+---
+### 7) TouchGrabExamples
+
+
+* 중력 적용 오브젝트, 미적용 오브젝트
+![bg left height:4in](./project1/image52.png)
+![bg left height:4in](./project1/image51.png)
+
+---
+
+### 8) TransformExamples
+
+![bg left height:4in](./project1/image53.png)
+
+---
+![bg left height:4in](./project1/image54.png)
+* 문 열기 기능
+
+---
+
+![bg left height:4in](./project1/image55.png)
+
+* 오브젝트를 다른 오브젝트 안에 넣기
+
+---
+![bg left height:4in](./project1/image56.png)
+![bg left height:4in](./project1/image57.png)
+
+* 이미지 갤러리를 볼 수 있는 인터렉션 기능
+
+---
+
+### 1).Unity Universal RP 설치 및 Import
+
+1. Package Manager에서 Import하기
+![h:400](./project1/image58.png)
+window - Package Manager - Universal RP - Install - Import
+※ 좌측상단에 Packages에서 Unity Registry 로 설정하기
+
+---
+
+### 2). Assets창에서 Rendering 설정
+
+ ![h:400](./project1/image59.png)
+
+
+ ---
+![h:400](./project1/image60.png)
+Asset창에서 우클릭 후 - Create - Rendering - universal Render Pipeline - Pipeline Asset (Forward Renderer)
+
+
+---
+### 3). Project Setting하기
+![h:400](./project1/image61.png)
+Edit - Project Settings
+
+---
+
+  ![h:400](./project1/image62.png)
+  Edit - Project Settings - Graphics(좌측 메뉴바) - Universal Render Pipeline Ass → Scriptable Render Pipeline Settings(여기로 드래그하여 넣기) 
+  (Universal Render Pipeline Ass가 안보일 경우 Assets창에서 검색하기(검색 후 제일 왼쪽에 있는 것으로 넣기)Scriptable Render Pipeline Settings은 상단에 위치하고 있음)
+    
+---
+
+#### Oculus Build하기
+  ![h:400](./project1/image63.png)
+Oculus - OVR Build - OVR Build APK And Run
+하는 이유 : Pc로만 Unity를 재생하기 때문에 실제 VR앱에서 제대로 작동되는 지 확인하기 위함.
+
+---
+#### Universal RP 후 오브젝트가 핑크색으로 변할 경우
+  ![h:400](./project1/image64.png)
+  Edit - Render Pipeline - Universal Render Pipeline - Upgrade Project Materails to UniversalRP Materials
+클릭 후 안내창이 뜰 경우 - Proceed(진행)
+
+---
+
+# Unity 오류 발생 시 해결방법 모음
+![h:400](./project1/image65.png)
+
+---
+#### Console에 해당 오류가 뜬 경우, 또는 Package Manager에서 정상적으로 Import하지 못할 경우
+* Package Manager 에서 생긴 오류로 자주 생기는 문제임
+ 
+* 해결방법 : Unity Hub에서 로그아웃 후 재로그인
+
+#### VR기기 착용 후 설정에 오큘러스 링크 연결이 나오지 않을 경우
+
+ * VR 기기의 전원을 끄고 다시 키기
+ 
+ * PC에 있는 오큘러스 앱 계정 로그아웃 후 재로그인
+ #### 설정 높이가 너무 높을 경우 VR 영역에서 벗어난 후 다시 높이 설정
+
+ * 높이 설정할 때 컨트롤러를 최대한 바닥에 가깝게 둘 것
+
+ ---
+ #### 핸드트래킹이 인식이 잘 안될 때
+ * 컨트롤러를 최대한 멀리 둔 후, 뒤집기
+
+ #### 유니티 버전 재설치 후, failed to delete old unity installation files라는 에러가 발생할 때
+
+* C:\Program Files\Unity\Hub\Editor\2019.2.6f1\Editor\Data\PlaybackEngines\ 위에 경로로 가서 AndroidPlayer 폴더 삭제하기 
+
+
+---
+
+####   유니티 오큘러스 빌드 과정에서 Gradle 오류가 발생했을 때 
+
+![h:400](./project1/image66.png)
+Gradle build failed 오류가 발생했을 경우 - 유니티 프로젝트 폴더명과 경로가 한글로 되어 있을 경우 영어로 수정할 것
+
+---
+
+#### 변경 후에도 Gradle build 오류 해결이 안될 경우
+- 유니티 종료
+- C:\Users\사용자\.gradle\caches 안에 폴더 다 지우기
+- C:\Users\nomea\AppData\LocalLow\해당 패키지 이름 폴더째로 삭제
+- 재부팅
+
+---
+
+
 
