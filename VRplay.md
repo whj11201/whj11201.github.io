@@ -47,14 +47,8 @@ https://www.oculus.com/download_app/?id=1582076955407037
  링크(케이블)선택
 
 
-
 ---
 
-![h:400](./Oculusplay/imging5.png)
--USB 케이블을 PC USB와 연결하기 
--보조 배터리가 연결되어 있으면 빼고 연결하기 
-
----
 ![bg left height:4in](./Oculusplay/imging5-1.png)
 ![bg left height:4in](./Oculusplay/imging5-2.png)
 -USB 케이블을 PC USB와 연결하기 
@@ -63,20 +57,27 @@ https://www.oculus.com/download_app/?id=1582076955407037
 
 
 
+---
+
+![h:400](./Oculusplay/imging6.png)
+연결 후 계속
 
 
+
+
+---
+
+
+
+
+![h:400](./Oculusplay/imging7.png)
+이런 화면이 뜨면 성공
 
 ---
 #### 추가필요설정 
 
 ![h:400](./Oculusplay/imging8.png)
-알 수 없는 출처로 연결불가 일떄 설정-일반- 알수없는출처를 켜두면 연결이 가능하다
-
-
----
-
-![h:400](./Oculusplay/imging7.png)
-이런 화면이 뜨면 성공
+오큘러스 앱 실행 → 설정 → 일반 → 알 수 없는 출처 허용
 
 ---
 ### PC화면으로 연결(오큐러스)
