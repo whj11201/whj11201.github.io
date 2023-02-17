@@ -49,8 +49,29 @@ https://www.oculus.com/download_app/?id=1582076955407037
 
 
 ---
-![h:400](./Oculusplay/imging6.png)
-링크를 데스크탑(노트북)c타입에 꽂고 다른 하나는 오큘러스에 꽂으면 위에 화면처럼 연결됌
+
+![h:400](./Oculusplay/imging5.png)
+-USB 케이블을 PC USB와 연결하기 
+-보조 배터리가 연결되어 있으면 빼고 연결하기 
+
+---
+![bg left height:4in](./Oculusplay/imging5-1.png)
+![bg left height:4in](./Oculusplay/imging5-2.png)
+-USB 케이블을 PC USB와 연결하기 
+-보조 배터리가 연결되어 있으면 빼고 연결하기 
+-PC USB 케이블을 VR 헤드셋 뒷부분에 있는 곳에 연결하지 말 것
+
+
+
+
+
+
+---
+#### 추가필요설정 
+
+![h:400](./Oculusplay/imging8.png)
+알 수 없는 출처로 연결불가 일떄 설정-일반- 알수없는출처를 켜두면 연결이 가능하다
+
 
 ---
 
@@ -64,12 +85,6 @@ pc에서 뜨는 연결된 PC이름 클릭 후-실행
 
 웹을 실행시킬라면 UI오른쪽에 +를 눌러 원하는 앱을
 누르면 실행이 된다.
-
----
-#### 알 수 없는 출처 
-
-![h:400](./Oculusplay/imging8.png)
-알 수 없는 출처로 연결불가 일떄 설정-일반- 알수없는출처를 켜두면 연결이 가능하다
 
 
 ---
