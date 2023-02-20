@@ -17,8 +17,13 @@ backgroundColor:
 
 *  캐릭터 모델링 Unity로 import
 
-* 
-
+*  트리거 기능(가방안에 물건 고정하기)
+* 오큘러스 퀘스트2 세팅 + 핸드 트래킹 절차 안내
+* Oculus Quest2 사이드퀘스트 설치 및 활성화
+* Unity VR 다양한 씬 체험설명
+* HandTrackingEvent
+* Scene 이동
+* 오류 및 해결내용
 
 ---
 
