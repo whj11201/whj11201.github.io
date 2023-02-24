@@ -63,3 +63,13 @@ Locate를 눌러
   ![h:400](./Unityimage/image10.png)
   그럼 설치가 완료 된 것을 확인할 수 있음
 
+  ---
+
+  # Dialogue
+ ![h:400](./Unityimage/image11.png)
+* window-asset store-Dialogue검색-Buynow 후 import
+
+
+---
+- imsport한 Dialogue에 있는 Dialoguesyteam를 오른쪽 마우스를 누르고 pixel 누르고
+

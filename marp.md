@@ -200,5 +200,5 @@ export slide deck 클릭
 ---
 
 [참고:Youtube](https://www.youtube.com/@dougmercer)
-Thanks you
+
   
