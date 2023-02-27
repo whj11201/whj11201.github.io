@@ -71,5 +71,55 @@ Locate를 눌러
 
 
 ---
-- imsport한 Dialogue에 있는 Dialoguesyteam를 오른쪽 마우스를 누르고 pixel 누르고
+ ![h:400](./Unityimage/image12.png)
+- imsport한 후 project창에 빈 곳을  오른쪽 마우스를 클릭 create 클릭 후 맨 위에 있는 pixelcrushers 클릭 후  Dialougue Syteam 클릭 후 Dialouge Database클릭
+
+---
+
+ ![h:400](./Unityimage/image13.png)
+ - 만든 Dialouge Database를 더블클릭 후 Dialouge창을 game에 옮기고 Conversations 선택
+
+---
+
+  ![h:400](./Unityimage/image14.png)
+  -  (+) 버튼을 눌러 New Conversation 1를 생성
+
+---
+
+ ![bg left height:4in](./Unityimage/image15.png)
+![bg left height:4in](./Unityimage/image16.png)
+ -  start 오른쪽 마우스 클릭 후 Create Child Node 클릭 node 생성
+
+ ---
+  ![h:400](./Unityimage/image17.png)
+ -  Dialouge Text 입력 후 conditons에는 순서를 넣을 것 
+ - conditons에서는  Variable["chapter"] == 0 and  기입
+ - < start>를 시작 기점으로 변수 숫자는 0부터 시작해 0부터 넣을 것 
+ 
+
+
+ ---
+ ![h:400](./Unityimage/image18.png)
+- node[END] 부분에서 다음 Node로 이동하기위해선
+- script에서 Variable["chapter"] == 1  기입
+- 플레이 버튼을 눌러 테스트 해볼 것 
+
+---
+![h:400](./Unityimage/image19.png)
+* Conversations를 제작하다 복잡하게 배치할때
+
+---
+
+![h:400](./Unityimage/image20.png)
+* < start>에오른쪽 마우스를 눌러 Arrange Nodes를 클릭
+
+---
+![h:400](./Unityimage/image21.png)
+* Vertically(가운대 배치), Horizontally(좌쪽으로 배치)선택하여 클릭
+
+----
+![bg left height:4in](./Unityimage/image22.png)
+
+![bg left height:4in](./Unityimage/image23.png)
+이런식으로 배치가 가능
 
