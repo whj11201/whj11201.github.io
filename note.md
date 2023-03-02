@@ -143,3 +143,9 @@ bool
 디얄로그 데이타 베이스
 tts 문서작성
 
+---
+
+[2023 -02월 27일]
+
+* https://learn.unity.com/tutorial/creating-ui-buttons?language=en# 학습용
+* https://docs.unity3d.com/Manual/render-pipelines.html 웹문서 학습용
