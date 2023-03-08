@@ -108,7 +108,7 @@ Coconut | Brown | 1  |
 ---
  
  [2023 -02월 22일]
-
+ 
 if문 {조건}
 
 ex) a>b a < b a==b
@@ -149,3 +149,10 @@ tts 문서작성
 
 * https://learn.unity.com/tutorial/creating-ui-buttons?language=en# 학습용
 * https://docs.unity3d.com/Manual/render-pipelines.html 웹문서 학습용
+
+
+
+---
+
+* GravityPower = 중력값
+* StoppingDistance = 정지거리
